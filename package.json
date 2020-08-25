@@ -1,0 +1,22 @@
+{
+  "name": "gql-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My personal local graphql playground",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --watch ./serverless-gql.esm.js -r esm src/devServer.js "
+  },
+  "keywords": [],
+  "author": "Mudit Ameta <zeusdeux@gmail.com>",
+  "dependencies": {
+    "@zeusdeux/serverless-graphql": "0.0.13",
+    "apollo-server": "^2.9.15",
+    "esm": "^3.2.25",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "2.1.0"
+  }
+}
